@@ -40,7 +40,7 @@
 
       <h1 class="logo me-auto"><a href="index.html">Etron Cyber Solutions</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -68,7 +68,7 @@
           <h2>Etron Cyber Solutions</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#pricing" class="btn-get-started scrollto">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
+            <a href="https://www.youtube.com/" class="glightbox btn-watch-video"><i
                 class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
@@ -87,7 +87,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About Us</h2>
+          <!-- <h3>Etron Cyber Solutions</h3> --->
+          <h2>About Us</h2> 
         </div>
 
         <div class="row content">
@@ -170,15 +171,13 @@ We offer a wide range of services, including network security, data protection, 
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= Blogs Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Blogs</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Explore the World of Blogs and Discover New Ideas Today!</p>
         </div>
 
         <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
@@ -300,9 +299,8 @@ We offer a wide range of services, including network security, data protection, 
 
         <div class="section-title">
           <h2>Plans & Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Plan with confidence and price with ease.</p>
+          <p>Premium service packages are designed for customers who want a more exclusive, personalized experience. These packages typically include exclusive access to amenities, special discounts or privileges, and extra services the customer wouldn't normally receive with a standard package.</p>
         </div>
 
         <div class="row">
@@ -363,9 +361,8 @@ We offer a wide range of services, including network security, data protection, 
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Get the latest news, reviews and updates on the latest products and services. 
+            Learn about new features and get tips and advice on how to get the most out of your purchase.</p>
         </div>
 
         <div class="row">
@@ -489,7 +486,7 @@ We offer a wide range of services, including network security, data protection, 
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <p>Connect with us on social media!</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
