@@ -475,11 +475,11 @@ We offer a wide range of services, including network security, data protection, 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Network security</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Website security</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Security auditing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Employee Awareness Training program</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Email social engineering</a></li>
             </ul>
           </div>
 
