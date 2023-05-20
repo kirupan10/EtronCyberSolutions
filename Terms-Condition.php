@@ -123,11 +123,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Network security</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Website security</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Security auditing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Employee Awareness Training program</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Email social engineering</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Network-security">Network security</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Website-security">Website security</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Security-auditing">Security auditing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Employee-awareness">Employee Awareness Training program</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Email-social-engineering">Email social engineering</a></li>
             </ul>
           </div>
 
