@@ -190,8 +190,8 @@ We offer a wide range of services, including network security, data protection, 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
-            <div class="blogs-info">
+            <div class="portfolio-img"><img src="assets/img/blogs/blogs-1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
               <h4>App 1</h4>
               <p>App</p>
               <a href="assets/img/blogs/blogs-1.jpg" data-gallery="portfolioGallery"
@@ -201,7 +201,7 @@ We offer a wide range of services, including network security, data protection, 
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/blogs/blogs-2.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Web 3</h4>
               <p>Web</p>
@@ -212,8 +212,8 @@ We offer a wide range of services, including network security, data protection, 
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="blogs-info">
+            <div class="portfolio-img"><img src="assets/img/blogs/blogs-3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
               <h4>App 2</h4>
               <p>App</p>
               <a href="assets/img/blogs/blogs-3.jpg" data-gallery="portfolioGallery"
@@ -223,7 +223,7 @@ We offer a wide range of services, including network security, data protection, 
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/blogs/blogs-4.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Card 2</h4>
               <p>Card</p>
@@ -234,7 +234,7 @@ We offer a wide range of services, including network security, data protection, 
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/blogs/blogs-5.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Web 2</h4>
               <p>Web</p>
@@ -245,7 +245,7 @@ We offer a wide range of services, including network security, data protection, 
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/blogs/blogs-6.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>App 3</h4>
               <p>App</p>
@@ -256,7 +256,7 @@ We offer a wide range of services, including network security, data protection, 
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/blogs/blogs-7.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Card 1</h4>
               <p>Card</p>
@@ -267,7 +267,7 @@ We offer a wide range of services, including network security, data protection, 
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/blogs/blogs-8.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Card 3</h4>
               <p>Card</p>
@@ -278,7 +278,7 @@ We offer a wide range of services, including network security, data protection, 
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/blogs/blogs-9.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Web 3</h4>
               <p>Web</p>
@@ -293,7 +293,7 @@ We offer a wide range of services, including network security, data protection, 
       </div>
     </section><!-- End blogs Section -->
 
-    <!-- ======= Pricing Section ======= -->
+    <!-- ======= Pricing Section ======= 
     <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -353,7 +353,7 @@ We offer a wide range of services, including network security, data protection, 
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section> End Pricing Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -372,19 +372,19 @@ We offer a wide range of services, including network security, data protection, 
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Scarborough Ontario</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>etroncybersolution@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+416 418 3926</p>
               </div>
 
               <iframe
