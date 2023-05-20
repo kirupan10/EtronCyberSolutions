@@ -293,7 +293,7 @@ We offer a wide range of services, including network security, data protection, 
       </div>
     </section><!-- End blogs Section -->
 
-    <!-- ======= Pricing Section ======= 
+
     <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -353,7 +353,7 @@ We offer a wide range of services, including network security, data protection, 
         </div>
 
       </div>
-    </section> End Pricing Section -->
+    </section> 
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
