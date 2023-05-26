@@ -265,16 +265,16 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="include/plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="admin/include/plugins/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="include/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="include/js/app-style-switcher.js"></script>
+    <script src="admin/include/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="admin/include/js/app-style-switcher.js"></script>
     <!--Wave Effects -->
-    <script src="include/js/waves.js"></script>
+    <script src="admin/include/js/waves.js"></script>
     <!--Menu sidebar -->
-    <script src="include/js/sidebarmenu.js"></script>
+    <script src="admin/include/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="include/js/custom.js"></script>
+    <script src="admin/include/js/custom.js"></script>
 </body>
 
 </html>

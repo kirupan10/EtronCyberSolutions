@@ -16,7 +16,7 @@
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="include/plugins/images/favicon.png">
     <!-- Custom CSS -->
-   <link href="include/css/style.min.css" rel="stylesheet">
+   <link href="admin/include/css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -47,7 +47,7 @@
                 <h1 class="error-title text-danger">404</h1>
                 <h3 class="text-uppercase error-subtitle">PAGE NOT FOUND !</h3>
                 <p class="text-muted mt-4 mb-4">YOU SEEM TO BE TRYING TO FIND HIS WAY HOME</p>
-                <a href="dashboard.html" class="btn btn-danger btn-rounded waves-effect waves-light mb-5 text-white">Back to home</a>
+                <a href="./" class="btn btn-danger btn-rounded waves-effect waves-light mb-5 text-white">Back to home</a>
             </div>
         </div>
         <!-- ============================================================== -->
@@ -69,9 +69,9 @@
     <!-- ============================================================== -->
     <!-- All Required js -->
     <!-- ============================================================== -->
-    <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="admin/include/plugins/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="admin/include/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- ============================================================== -->
     <!-- This page plugin js -->
     <!-- ============================================================== -->

@@ -1,29 +1,6 @@
-
 <?php
- 
-$conn = "";
-  
-try {
-    $servername = "localhost";
-    $dbname = "etroncybersolutions";
-    $username = "root";
-    $password = "root";
-  
-    $conn = new PDO(
-        "mysql:host=$servername; dbname=etroncybersolutions",
-        $username, $password
-    );
-     
-   $conn->setAttribute(PDO::ATTR_ERRMODE,
-                    PDO::ERRMODE_EXCEPTION);
-}
-catch(PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
-}
- 
-?>
-<?php
-  
+session_start();
+include_once('config/connection.php');
 function test_input($data) {
      
     $data = trim($data);
@@ -44,6 +21,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          
         if(($user['username'] == $username) &&
             ($user['password'] == $password)) {
+                $_SESSION['username'] = $username;
+                $_SESSION['loggedIn'] = true;
                 header("location: dashboard");
         }
         else {
@@ -67,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="login.css">
-    <title>Login Page</title>
+    <title>Login | Etron Cyber Solutions </title>
     <style>
         body {
     margin: 0;

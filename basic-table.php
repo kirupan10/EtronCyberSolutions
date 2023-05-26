@@ -16,7 +16,7 @@
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="include/plugins/images/favicon.png">
     <!-- Custom CSS -->
-   <link href="include/css/style.min.css" rel="stylesheet">
+   <link href="admin/include/css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -143,7 +143,7 @@
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="basic-table.html"
                                 aria-expanded="false">
                                 <i class="fa fa-table" aria-hidden="true"></i>
-                                <span class="hide-menu">Basic Table</span>
+                                <span class="hide-menu">News Letter</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
@@ -323,16 +323,16 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="include/plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="admin/include/plugins/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="include/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="include/js/app-style-switcher.js"></script>
+    <script src="admin/include/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="admin/include/js/app-style-switcher.js"></script>
     <!--Wave Effects -->
-    <script src="include/js/waves.js"></script>
+    <script src="admin/include/js/waves.js"></script>
     <!--Menu sidebar -->
-    <script src="include/js/sidebarmenu.js"></script>
+    <script src="admin/include/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="include/js/custom.js"></script>
+    <script src="admin/include/js/custom.js"></script>
 </body>
 
 </html>
