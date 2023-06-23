@@ -3,6 +3,7 @@
 
 <!-- header -->
 <?php include 'config/head.php';?>
+<title>Terms | Etron Cyber Solutions</title>
 <!-- header -->
 
 <body>

@@ -1,0 +1,19 @@
+RewriteEngine On
+
+ErrorDocument 404 http://localhost:8888/EtronCyberSolutions/404
+
+# Unless directory, remove trailing slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/$ http://example.com/folder/$1 [R=301,L]
+
+# Redirect external .php requests to extensionless URL
+RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
+RewriteRule ^(.+)\.php$ http://example.com/folder/$1 [R=301,L]
+
+# Resolve .php file for extensionless PHP URLs
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) /index.php/$1 [L]

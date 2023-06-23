@@ -5,7 +5,6 @@ if($_SESSION["loggedIn"] != true){
     header("Location: login");
     exit;
 }
-
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
@@ -18,7 +17,7 @@ if($_SESSION["loggedIn"] != true){
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="robots" content="noindex,nofollow">
-    <title>Etron Cyber Solutions</title>
+    <title>Dashboard | Etron Cyber Solutions</title>
     <link rel="canonical" href="" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="admin/include/plugins/images/favicon.png">
@@ -85,22 +84,12 @@ if($_SESSION["loggedIn"] != true){
                     <!-- ============================================================== -->
                     <ul class="navbar-nav ms-auto d-flex align-items-center">
 
-                        <!-- ============================================================== -->
-                        <!-- Search -->
-                        <!-- ============================================================== -->
-                        <li class=" in">
-                            <form role="search" class="app-search d-none d-md-block me-3">
-                                <input type="text" placeholder="Search..." class="form-control mt-0">
-                                <a href="" class="active">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </form>
-                        </li>
+                       
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li>
-                            <a class="profile-pic" href="#">
+                            <a class="profile-pic" href="profile">
                                 <img src="admin/include/plugins/images/users/varun.jpg" alt="user-img" width="36"
                                     class="img-circle"><span class="text-white font-medium"><?php echo $_SESSION['username']; ?></span></a>
                         </li>
@@ -125,7 +114,7 @@ if($_SESSION["loggedIn"] != true){
                     <ul id="sidebarnav">
                         <!-- User Profile-->
                         <li class="sidebar-item pt-2">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href=""
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Dashboard"
                                 aria-expanded="false">
                                 <i class="far fa-clock" aria-hidden="true"></i>
                                 <span class="hide-menu">Dashboard</span>
@@ -139,43 +128,43 @@ if($_SESSION["loggedIn"] != true){
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="basic-table.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="News-Letter"
                                 aria-expanded="false">
                                 <i class="fa fa-table" aria-hidden="true"></i>
                                 <span class="hide-menu">News Letter</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="blank.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="New-Post"
                                 aria-expanded="false">
                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                 <span class="hide-menu">Add New Post</span>
                             </a>
                         </li>
                          <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="blank.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="View-Posts"
                                 aria-expanded="false">
                                <i class="fa fa-paperclip" aria-hidden="true"></i>
                                 <span class="hide-menu">View Posts</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="404.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Supports"
                                 aria-expanded="false">
                                 <i class="fa fa-life-ring" aria-hidden="true"></i>
                                 <span class="hide-menu">Supports</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="404.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Developers"
                                 aria-expanded="false">
                                 <i class="fa fa-cog" aria-hidden="true"></i>
                                 <span class="hide-menu">Developers</span>
                             </a>
                         </li>
                         <li class="text-center p-20 upgrade-btn">
-                            <a href="https://www.wrappixel.com/templates/ampleadmin/"
-                                class="btn d-grid btn-danger text-white" target="_blank">
+                            <a href="logout"
+                                class="btn d-grid btn-danger text-white" >
                                 Logout</a>
                         </li>
                     </ul>
@@ -203,9 +192,9 @@ if($_SESSION["loggedIn"] != true){
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <div class="d-md-flex">
                             <ol class="breadcrumb ms-auto">
-                                <li><a href="#" class="fw-normal">Dashboard</a></li>
+                                <li><a href="#" class="fw-normal"></a></li>
                             </ol>
-                            <a href="https://www.wrappixel.com/templates/ampleadmin/" target="_blank"
+                            <a href="New-Post" target="_self"
                                 class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Add New Post</a>
                         </div>
                     </div>
@@ -316,27 +305,48 @@ if($_SESSION["loggedIn"] != true){
                     <!-- .col -->
                     <div class="col-md-12 col-lg-8 col-sm-12">
                         <div class="card white-box p-0">
-                            <div class="card-body">
-                                <h3 class="box-title mb-0">Recent Comments</h3>
+                        <div class="row">
+                    <div class="col-sm-12">
+                        <div class="white-box">
+                            <h3 class="box-title">News Letters</h3>
+                            <div class="table-responsive">
+                                <table class="table text-nowrap">
+                                    <thead>
+                                        <tr>
+                                            <th class="border-top-0">#</th>
+                                            <th class="border-top-0">Email</th>
+                                            <th class="border-top-0">Time</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <?php
+                                    $servername = "localhost";
+  $username = "root";
+  $password = "root";
+  $databasename = "etroncybersolutions";
+  $conn = new mysqli($servername,
+    $username, $password, $databasename);
+  if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+  }
+  $query = "SELECT * FROM `News_Letter`";
+  $result = $conn->query($query);
+        while($row = mysqli_fetch_assoc($result)) {
+            echo "<tbody>";
+            echo "<tr>";
+            echo " <td>"; echo $row["news_letter_ID"]; echo"</td>";
+            echo " <td>"; echo $row["Emails"]; echo" </td>";
+            echo " <td>"; echo $row["Time"]; echo" </td>";          
+            echo "</tr>";
+            echo "</tbody>";
+        }
+   $conn->close();
+?>
+                                </table>
                             </div>
-                            <div class="comment-widgets">
-                                <!-- Comment Row -->
-                                <div class="d-flex flex-row comment-row p-3 mt-0">
-                                    <div class="p-2"><img src="plugins/images/users/varun.jpg" alt="user" width="50"
-                                            class="rounded-circle"></div>
-                                    <div class="comment-text ps-2 ps-md-3 w-100">
-                                        <h5 class="font-medium">James Anderson</h5>
-                                        <span class="mb-3 d-block">Lorem Ipsum is simply dummy text of the printing and
-                                            type setting industry.It has survived not only five centuries. </span>
-                                        <div class="comment-footer d-md-flex align-items-center">
-                                            <span class="badge bg-primary rounded">Pending</span>
-
-                                            <div class="text-muted fs-2 ms-auto mt-2 mt-md-0">April 14, 2021</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Comment Row -->
-                            </div>
+                        </div>
+                    </div>
+                </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
@@ -378,8 +388,8 @@ if($_SESSION["loggedIn"] != true){
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <footer class="footer text-center"> &#169;Copyright <?php echo date("Y"); ?>   <a
-                    href="https://www.github.com/kirupan10" target="_blank">Kirupan Inpathas</a>
+            <footer class="footer text-center"> &#169;Copyright <?php echo date("Y"); ?> 
+            Etron Cyber Solutions</span></strong>. All Rights Reserved
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
