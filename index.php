@@ -3,6 +3,7 @@
 
 <!-- header -->
 <?php include 'config/head.php';?>
+<title>Home | Etron Cyber Solutions</title>
 <!-- header -->
 
 
@@ -12,7 +13,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="/">Etron Cyber Solutions</a></h1>
+      <h1 class="logo me-auto"><a href=".">Etron Cyber Solutions</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="/" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
@@ -408,8 +409,20 @@ We offer a wide range of services, including network security, data protection, 
   <!-- ======= Footer ======= -->
   
 
-<!-- Bottom --->
-<?php include 'config/bottom.php';?>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

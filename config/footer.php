@@ -1,4 +1,38 @@
+<?php
+ 
+ $servername = "localhost";
+ $username = "root";
+ $password = "root";
+ $databasename = "etroncybersolutions";
+ $conn = new mysqli($servername,
+   $username, $password, $databasename);
+ if ($conn->connect_error) {
+     die("Connection failed: " . $conn->connect_error);
+ }
 
+if($_GET["newsletter_submit"]){
+    $email = $_GET["email"];
+
+$res = time();
+   echo($res . "<br>");
+   echo $time = (date("Y-m-d",$res));
+
+$sql = "insert into News_Letter(Emails,Time)values('$email','$time')"; 
+
+if ($conn->query($sql) === TRUE) {
+	echo "Votes Recorded: Yes = ".$vote_yes." NoTime = ".$time;
+} else {
+	echo "Error: ".$sql."<br>".$conn->error;
+}
+
+$conn->close();
+
+}
+ 
+
+
+
+?>
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
@@ -8,8 +42,8 @@
           <div class="col-lg-6">
             <h4>Join Our Newsletter</h4>
             <p>Experience security and peace of mind with our comprehensive security services.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+            <form action="config/newsletter" method="post">
+              <input type="email" name="email"><input type="submit" name="newsletter_submit" value="Subscribe">
             </form>
           </div>
         </div>
@@ -33,9 +67,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href=".">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href=".">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href=".">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="Terms-Condition">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="Privacy-Policy">Privacy policy</a></li>
             </ul>
