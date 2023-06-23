@@ -1,10 +1,6 @@
 <?php 
 session_start();
-if($_SESSION["loggedIn"] != true){
-    echo 'not logged in';
-    header("Location: login");
-    exit;
-}
+if($_SESSION["loggedIn"] != true){header("Location: login");exit;}
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
@@ -222,33 +218,30 @@ if($_SESSION["loggedIn"] != true){
                                             <th class="border-top-0">#</th>
                                             <th class="border-top-0">Email</th>
                                             <th class="border-top-0">Time</th>
-                                            
                                         </tr>
                                     </thead> 
                                     <?php
                                     $servername = "localhost";
-  $username = "root";
-  $password = "root";
-  $databasename = "etroncybersolutions";
-  $conn = new mysqli($servername,
-    $username, $password, $databasename);
-  if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-  }
-  $query = "SELECT * FROM `News_Letter` ORDER BY news_letter_ID DESC LIMIT 10 ";
-  $result = $conn->query($query);
-        while($row = mysqli_fetch_assoc($result)) {
-            echo "<tbody>";
-            echo "<tr>";
-            echo " <td>"; echo $row["news_letter_ID"]; echo"</td>";
-            echo " <td>"; echo $row["Emails"]; echo" </td>";
-            echo " <td>"; echo $row["Time"]; echo" </td>";          
-            echo "</tr>";
-            echo "</tbody>";
-        }
-   $conn->close();
-?>
-                                    
+                                    $username = "root";
+                                    $password = "root";
+                                    $databasename = "etroncybersolutions";
+                                    $conn = new mysqli($servername, $username, $password, $databasename);
+                                    if ($conn->connect_error) {
+                                        die("Connection failed: " . $conn->connect_error);
+                                    }
+                                    $query = "SELECT * FROM `News_Letter` ORDER BY news_letter_ID DESC LIMIT 10 ";
+                                    $result = $conn->query($query);
+                                            while($row = mysqli_fetch_assoc($result)) {
+                                                echo "<tbody>";
+                                                echo " <tr>";
+                                                echo " <td>"; echo $row["news_letter_ID"]; echo"</td>";
+                                                echo " <td>"; echo $row["Emails"]; echo" </td>";
+                                                echo " <td>"; echo $row["Time"]; echo" </td>";          
+                                                echo "</tr>";
+                                                echo "</tbody>";
+                                            }
+                                    $conn->close();
+                                    ?>
                                 </table>
                             </div>
                         </div>

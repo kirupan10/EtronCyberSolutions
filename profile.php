@@ -1,10 +1,6 @@
 <?php 
 session_start();
-if($_SESSION["loggedIn"] != true){
-    echo 'not logged in';
-    header("Location: login");
-    exit;
-}
+if($_SESSION["loggedIn"] != true){header("Location: login");exit;}
   $servername = "localhost";
   $username = "root";
   $password = "root";
